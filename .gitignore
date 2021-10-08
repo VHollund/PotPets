@@ -1,0 +1,8 @@
+.idea
+cmake-build-debug
+debug.txt
+*.o
+*.swp
+*.tmp
+=======
+/build
