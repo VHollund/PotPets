@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2017.2.1\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\kjeledyr.dir/objects.a
-C:\mingw64\bin\ar.exe cr CMakeFiles\kjeledyr.dir/objects.a @CMakeFiles\kjeledyr.dir\objects1.rsp
-C:\mingw64\bin\g++.exe -O3 -DNDEBUG   -Wl,--whole-archive CMakeFiles\kjeledyr.dir/objects.a -Wl,--no-whole-archive  -o kjeledyr.exe -Wl,--out-implib,libkjeledyr.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\kjeledyr.dir\linklibs.rsp
