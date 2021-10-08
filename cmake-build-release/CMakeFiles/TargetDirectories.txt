@@ -1,0 +1,3 @@
+C:/Users/vetle/potpets/cmake-build-release/CMakeFiles/kjeledyr.dir
+C:/Users/vetle/potpets/cmake-build-release/CMakeFiles/edit_cache.dir
+C:/Users/vetle/potpets/cmake-build-release/CMakeFiles/rebuild_cache.dir

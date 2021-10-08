@@ -1,0 +1,802 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+.././DEFINITIONS.h
+
+.././Game Elements/AiRoutes.h
+
+.././Game Elements/Playerstruct.h
+map
+-
+
+.././Game Elements/ammo.h
+list
+-
+SFML/Graphics/RectangleShape.hpp
+-
+
+.././Game Elements/backgroundAnimations.h
+list
+-
+SFML/Graphics/Sprite.hpp
+-
+SFML/System/Clock.hpp
+-
+vector
+-
+
+.././Game Elements/bullet.h
+SFML/Graphics/Sprite.hpp
+-
+Game Engine/game.h
+-
+
+.././Game Elements/powerUp.h
+SFML/Graphics/RectangleShape.hpp
+-
+SFML/Graphics/Sprite.hpp
+-
+Game Engine/game.h
+-
+
+.././Game Engine/asset_manager.h
+map
+-
+SFML/Graphics.hpp
+-
+SFML/Audio.hpp
+-
+
+.././Game Engine/game.h
+memory
+-
+string
+-
+SFML/Graphics.hpp
+-
+statemachine.h
+.././Game Engine/statemachine.h
+asset_manager.h
+.././Game Engine/asset_manager.h
+input_manager.h
+.././Game Engine/input_manager.h
+Game Elements/Playerstruct.h
+.././Game Engine/Game Elements/Playerstruct.h
+
+.././Game Engine/input_manager.h
+SFML/Graphics.hpp
+-
+map
+-
+
+.././Game Engine/state.h
+memory
+-
+SFML/Graphics.hpp
+-
+
+.././Game Engine/statemachine.h
+stack
+-
+map
+-
+state.h
+.././Game Engine/state.h
+
+.././Map/layer.h
+object.h
+.././Map/object.h
+
+.././Map/map.h
+string
+-
+list
+-
+object.h
+.././Map/object.h
+sprite.h
+.././Map/sprite.h
+layer.h
+.././Map/layer.h
+Game Engine/game.h
+-
+
+.././Map/object.h
+list
+-
+
+.././Map/sprite.h
+SFML/System/Clock.hpp
+-
+object.h
+.././Map/object.h
+
+.././Player/AiPlayer.h
+Game Elements/AiRoutes.h
+-
+PlayerObject.h
+.././Player/PlayerObject.h
+
+.././Player/PlayerObject.h
+iostream
+-
+SFML/Graphics.hpp
+-
+DEFINITIONS.h
+-
+Map/object.h
+-
+Map/sprite.h
+-
+Map/map.h
+-
+Game Engine/game.h
+-
+Game Elements/powerUp.h
+-
+Game Elements/bullet.h
+-
+Game Elements/ammo.h
+-
+random
+-
+chrono
+-
+
+.././Player/player.h
+SFML/Graphics.hpp
+-
+PlayerObject.h
+.././Player/PlayerObject.h
+
+.././States/game_state.h
+Game Engine/state.h
+.././States/Game Engine/state.h
+Game Engine/game.h
+.././States/Game Engine/game.h
+Game Elements/backgroundAnimations.h
+-
+Game Elements/powerUp.h
+-
+string
+-
+Map/object.h
+.././States/Map/object.h
+Player/AiPlayer.h
+-
+Player/player.h
+.././States/Player/player.h
+list
+-
+Map/map.h
+-
+
+.././States/menu_state.h
+SFML/Graphics.hpp
+-
+Game Elements/backgroundAnimations.h
+-
+Game Engine/state.h
+.././States/Game Engine/state.h
+Game Engine/game.h
+.././States/Game Engine/game.h
+
+.././States/splash_state.h
+SFML/Graphics.hpp
+-
+Game Engine/state.h
+.././States/Game Engine/state.h
+Game Engine/game.h
+.././States/Game Engine/game.h
+Player/PlayerObject.h
+-
+
+../plog/include/plog/Appenders/IAppender.h
+plog/Record.h
+-
+
+../plog/include/plog/Appenders/RollingFileAppender.h
+plog/Appenders/IAppender.h
+-
+plog/Converters/UTF8Converter.h
+-
+plog/Util.h
+-
+algorithm
+-
+
+../plog/include/plog/Converters/UTF8Converter.h
+plog/Util.h
+-
+
+../plog/include/plog/Formatters/CsvFormatter.h
+plog/Record.h
+-
+plog/Util.h
+-
+iomanip
+-
+
+../plog/include/plog/Formatters/TxtFormatter.h
+plog/Record.h
+-
+plog/Util.h
+-
+iomanip
+-
+
+../plog/include/plog/Init.h
+plog/Logger.h
+-
+plog/Formatters/CsvFormatter.h
+-
+plog/Formatters/TxtFormatter.h
+-
+plog/Appenders/RollingFileAppender.h
+-
+cstring
+-
+
+../plog/include/plog/Log.h
+plog/Logger.h
+-
+plog/Init.h
+-
+
+../plog/include/plog/Logger.h
+plog/Appenders/IAppender.h
+-
+plog/Util.h
+-
+vector
+-
+
+../plog/include/plog/Record.h
+plog/Severity.h
+-
+plog/Util.h
+-
+vcclr.h
+-
+
+../plog/include/plog/Severity.h
+
+../plog/include/plog/Util.h
+cassert
+-
+cstring
+-
+cstdio
+-
+sstream
+-
+fcntl.h
+-
+sys/stat.h
+-
+plog/WinApi.h
+-
+time.h
+-
+sys/timeb.h
+-
+io.h
+-
+share.h
+-
+unistd.h
+-
+sys/syscall.h
+-
+sys/time.h
+-
+pthread.h
+-
+iconv.h
+-
+
+../plog/include/plog/WinApi.h
+
+C:/Users/vetle/potpets/DEFINITIONS.h
+
+C:/Users/vetle/potpets/Game Elements/AiRoutes.cpp
+AiRoutes.h
+C:/Users/vetle/potpets/Game Elements/AiRoutes.h
+
+C:/Users/vetle/potpets/Game Elements/AiRoutes.h
+
+C:/Users/vetle/potpets/Game Elements/ammo.cpp
+ammo.h
+C:/Users/vetle/potpets/Game Elements/ammo.h
+
+C:/Users/vetle/potpets/Game Elements/ammo.h
+list
+-
+SFML/Graphics/RectangleShape.hpp
+-
+
+C:/Users/vetle/potpets/Game Elements/backgroundAnimations.cpp
+SFML/Graphics/Texture.hpp
+-
+iostream
+-
+DEFINITIONS.h
+-
+random
+-
+chrono
+-
+backgroundAnimations.h
+C:/Users/vetle/potpets/Game Elements/backgroundAnimations.h
+
+C:/Users/vetle/potpets/Game Elements/backgroundAnimations.h
+list
+-
+SFML/Graphics/Sprite.hpp
+-
+SFML/System/Clock.hpp
+-
+vector
+-
+
+C:/Users/vetle/potpets/Game Elements/bullet.cpp
+DEFINITIONS.h
+-
+bullet.h
+C:/Users/vetle/potpets/Game Elements/bullet.h
+SFML/Graphics/Texture.hpp
+-
+iostream
+-
+
+C:/Users/vetle/potpets/Game Elements/bullet.h
+SFML/Graphics/Sprite.hpp
+-
+Game Engine/game.h
+-
+
+C:/Users/vetle/potpets/Game Elements/powerUp.cpp
+DEFINITIONS.h
+-
+chrono
+-
+SFML/Graphics/Texture.hpp
+-
+random
+-
+iostream
+-
+Game Engine/game.h
+-
+powerUp.h
+C:/Users/vetle/potpets/Game Elements/powerUp.h
+
+C:/Users/vetle/potpets/Game Elements/powerUp.h
+SFML/Graphics/RectangleShape.hpp
+-
+SFML/Graphics/Sprite.hpp
+-
+Game Engine/game.h
+-
+
+C:/Users/vetle/potpets/Game Engine/asset_manager.cpp
+plog/Log.h
+-
+asset_manager.h
+C:/Users/vetle/potpets/Game Engine/asset_manager.h
+
+C:/Users/vetle/potpets/Game Engine/asset_manager.h
+map
+-
+SFML/Graphics.hpp
+-
+SFML/Audio.hpp
+-
+
+C:/Users/vetle/potpets/Game Engine/game.cpp
+game.h
+C:/Users/vetle/potpets/Game Engine/game.h
+States/menu_state.h
+-
+States/game_state.h
+-
+States/splash_state.h
+C:/Users/vetle/potpets/Game Engine/States/splash_state.h
+plog/Log.h
+C:/Users/vetle/potpets/Game Engine/plog/Log.h
+
+C:/Users/vetle/potpets/Game Engine/game.h
+memory
+-
+string
+-
+SFML/Graphics.hpp
+-
+statemachine.h
+C:/Users/vetle/potpets/Game Engine/statemachine.h
+asset_manager.h
+C:/Users/vetle/potpets/Game Engine/asset_manager.h
+input_manager.h
+C:/Users/vetle/potpets/Game Engine/input_manager.h
+Game Elements/Playerstruct.h
+C:/Users/vetle/potpets/Game Engine/Game Elements/Playerstruct.h
+
+C:/Users/vetle/potpets/Game Engine/input_manager.cpp
+iostream
+-
+plog/Log.h
+-
+input_manager.h
+C:/Users/vetle/potpets/Game Engine/input_manager.h
+
+C:/Users/vetle/potpets/Game Engine/input_manager.h
+SFML/Graphics.hpp
+-
+map
+-
+
+C:/Users/vetle/potpets/Game Engine/state.h
+memory
+-
+SFML/Graphics.hpp
+-
+
+C:/Users/vetle/potpets/Game Engine/statemachine.cpp
+plog/Log.h
+-
+statemachine.h
+C:/Users/vetle/potpets/Game Engine/statemachine.h
+
+C:/Users/vetle/potpets/Game Engine/statemachine.h
+stack
+-
+map
+-
+state.h
+C:/Users/vetle/potpets/Game Engine/state.h
+
+C:/Users/vetle/potpets/Map/layer.cpp
+SFML/Graphics.hpp
+-
+layer.h
+C:/Users/vetle/potpets/Map/layer.h
+
+C:/Users/vetle/potpets/Map/layer.h
+object.h
+C:/Users/vetle/potpets/Map/object.h
+
+C:/Users/vetle/potpets/Map/map.cpp
+fstream
+-
+cstring
+-
+json/json.h
+-
+SFML/Graphics.hpp
+-
+iostream
+-
+plog/Log.h
+-
+map.h
+C:/Users/vetle/potpets/Map/map.h
+DEFINITIONS.h
+C:/Users/vetle/potpets/Map/DEFINITIONS.h
+
+C:/Users/vetle/potpets/Map/map.h
+string
+-
+list
+-
+object.h
+C:/Users/vetle/potpets/Map/object.h
+sprite.h
+C:/Users/vetle/potpets/Map/sprite.h
+layer.h
+C:/Users/vetle/potpets/Map/layer.h
+Game Engine/game.h
+-
+
+C:/Users/vetle/potpets/Map/object.cpp
+SFML/Graphics.hpp
+-
+plog/Log.h
+-
+object.h
+C:/Users/vetle/potpets/Map/object.h
+
+C:/Users/vetle/potpets/Map/object.h
+list
+-
+
+C:/Users/vetle/potpets/Map/sprite.cpp
+SFML/Graphics.hpp
+-
+iostream
+-
+sprite.h
+C:/Users/vetle/potpets/Map/sprite.h
+
+C:/Users/vetle/potpets/Map/sprite.h
+SFML/System/Clock.hpp
+-
+object.h
+C:/Users/vetle/potpets/Map/object.h
+
+C:/Users/vetle/potpets/Player/AiPlayer.cpp
+cmath
+-
+iostream
+-
+plog/Log.h
+-
+AiPlayer.h
+C:/Users/vetle/potpets/Player/AiPlayer.h
+
+C:/Users/vetle/potpets/Player/AiPlayer.h
+Game Elements/AiRoutes.h
+-
+PlayerObject.h
+C:/Users/vetle/potpets/Player/PlayerObject.h
+
+C:/Users/vetle/potpets/Player/PlayerObject.h
+iostream
+-
+SFML/Graphics.hpp
+-
+DEFINITIONS.h
+-
+Map/object.h
+-
+Map/sprite.h
+-
+Map/map.h
+-
+Game Engine/game.h
+-
+Game Elements/powerUp.h
+-
+Game Elements/bullet.h
+-
+Game Elements/ammo.h
+-
+random
+-
+chrono
+-
+
+C:/Users/vetle/potpets/Player/player.cpp
+iostream
+-
+plog/Log.h
+-
+player.h
+C:/Users/vetle/potpets/Player/player.h
+DEFINITIONS.h
+C:/Users/vetle/potpets/Player/DEFINITIONS.h
+
+C:/Users/vetle/potpets/Player/player.h
+SFML/Graphics.hpp
+-
+PlayerObject.h
+C:/Users/vetle/potpets/Player/PlayerObject.h
+
+C:/Users/vetle/potpets/States/charselect_state.cpp
+DEFINITIONS.h
+-
+iostream
+-
+plog/Log.h
+-
+charselect_state.h
+C:/Users/vetle/potpets/States/charselect_state.h
+menu_state.h
+C:/Users/vetle/potpets/States/menu_state.h
+game_state.h
+C:/Users/vetle/potpets/States/game_state.h
+levelselect_state.h
+C:/Users/vetle/potpets/States/levelselect_state.h
+Game Elements/Playerstruct.h
+C:/Users/vetle/potpets/States/Game Elements/Playerstruct.h
+
+C:/Users/vetle/potpets/States/charselect_state.h
+Game Engine/state.h
+-
+Game Engine/game.h
+-
+Game Elements/Playerstruct.h
+C:/Users/vetle/potpets/States/Game Elements/Playerstruct.h
+
+C:/Users/vetle/potpets/States/game_over_state.cpp
+iostream
+-
+fstream
+-
+plog/Log.h
+-
+game_over_state.h
+C:/Users/vetle/potpets/States/game_over_state.h
+menu_state.h
+C:/Users/vetle/potpets/States/menu_state.h
+highscore_state.h
+C:/Users/vetle/potpets/States/highscore_state.h
+
+C:/Users/vetle/potpets/States/game_over_state.h
+DEFINITIONS.h
+C:/Users/vetle/potpets/States/DEFINITIONS.h
+Game Engine/state.h
+C:/Users/vetle/potpets/States/Game Engine/state.h
+Game Engine/game.h
+C:/Users/vetle/potpets/States/Game Engine/game.h
+
+C:/Users/vetle/potpets/States/game_state.cpp
+DEFINITIONS.h
+-
+iostream
+-
+chrono
+-
+random
+-
+game_state.h
+C:/Users/vetle/potpets/States/game_state.h
+menu_state.h
+C:/Users/vetle/potpets/States/menu_state.h
+game_over_state.h
+C:/Users/vetle/potpets/States/game_over_state.h
+vector
+-
+plog/Log.h
+-
+
+C:/Users/vetle/potpets/States/game_state.h
+Game Engine/state.h
+C:/Users/vetle/potpets/States/Game Engine/state.h
+Game Engine/game.h
+C:/Users/vetle/potpets/States/Game Engine/game.h
+Game Elements/backgroundAnimations.h
+-
+Game Elements/powerUp.h
+-
+string
+-
+Map/object.h
+C:/Users/vetle/potpets/States/Map/object.h
+Player/AiPlayer.h
+-
+Player/player.h
+C:/Users/vetle/potpets/States/Player/player.h
+list
+-
+Map/map.h
+-
+
+C:/Users/vetle/potpets/States/highscore_state.cpp
+highscore_state.h
+C:/Users/vetle/potpets/States/highscore_state.h
+DEFINITIONS.h
+C:/Users/vetle/potpets/States/DEFINITIONS.h
+menu_state.h
+C:/Users/vetle/potpets/States/menu_state.h
+fstream
+-
+iostream
+-
+string
+-
+plog/Log.h
+-
+
+C:/Users/vetle/potpets/States/highscore_state.h
+Game Engine/state.h
+C:/Users/vetle/potpets/States/Game Engine/state.h
+Game Engine/game.h
+C:/Users/vetle/potpets/States/Game Engine/game.h
+
+C:/Users/vetle/potpets/States/levelselect_state.cpp
+DEFINITIONS.h
+-
+levelselect_state.h
+C:/Users/vetle/potpets/States/levelselect_state.h
+game_state.h
+C:/Users/vetle/potpets/States/game_state.h
+charselect_state.h
+C:/Users/vetle/potpets/States/charselect_state.h
+iostream
+-
+
+C:/Users/vetle/potpets/States/levelselect_state.h
+Game Engine/game.h
+-
+
+C:/Users/vetle/potpets/States/menu_state.cpp
+menu_state.h
+C:/Users/vetle/potpets/States/menu_state.h
+game_state.h
+C:/Users/vetle/potpets/States/game_state.h
+DEFINITIONS.h
+C:/Users/vetle/potpets/States/DEFINITIONS.h
+highscore_state.h
+C:/Users/vetle/potpets/States/highscore_state.h
+settings_state.h
+C:/Users/vetle/potpets/States/settings_state.h
+charselect_state.h
+C:/Users/vetle/potpets/States/charselect_state.h
+sstream
+-
+plog/Log.h
+-
+
+C:/Users/vetle/potpets/States/menu_state.h
+SFML/Graphics.hpp
+-
+Game Elements/backgroundAnimations.h
+-
+Game Engine/state.h
+C:/Users/vetle/potpets/States/Game Engine/state.h
+Game Engine/game.h
+C:/Users/vetle/potpets/States/Game Engine/game.h
+
+C:/Users/vetle/potpets/States/settings_state.cpp
+iostream
+-
+plog/Log.h
+-
+settings_state.h
+C:/Users/vetle/potpets/States/settings_state.h
+DEFINITIONS.h
+C:/Users/vetle/potpets/States/DEFINITIONS.h
+menu_state.h
+C:/Users/vetle/potpets/States/menu_state.h
+
+C:/Users/vetle/potpets/States/settings_state.h
+Game Engine/game.h
+-
+Game Engine/state.h
+-
+
+C:/Users/vetle/potpets/States/splash_state.cpp
+splash_state.h
+C:/Users/vetle/potpets/States/splash_state.h
+States/menu_state.h
+C:/Users/vetle/potpets/States/States/menu_state.h
+Player/PlayerObject.h
+C:/Users/vetle/potpets/States/Player/PlayerObject.h
+DEFINITIONS.h
+C:/Users/vetle/potpets/States/DEFINITIONS.h
+game_state.h
+C:/Users/vetle/potpets/States/game_state.h
+sstream
+-
+iostream
+-
+plog/Log.h
+-
+
+C:/Users/vetle/potpets/States/splash_state.h
+SFML/Graphics.hpp
+-
+Game Engine/state.h
+C:/Users/vetle/potpets/States/Game Engine/state.h
+Game Engine/game.h
+C:/Users/vetle/potpets/States/Game Engine/game.h
+Player/PlayerObject.h
+-
+
+C:/Users/vetle/potpets/main.cpp
+iostream
+-
+SFML/Audio.hpp
+-
+fstream
+-
+DEFINITIONS.h
+C:/Users/vetle/potpets/DEFINITIONS.h
+Game Engine/game.h
+C:/Users/vetle/potpets/Game Engine/game.h
+
